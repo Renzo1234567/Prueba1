@@ -13,21 +13,21 @@
         android:id="@+id/Nombre_Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="223dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="224dp"
         android:background="@android:drawable/editbox_background"
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="textPersonName"
-        android:text="Usuario:"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
+        android:text="Usuarioppo:"
         app:layout_constraintBottom_toTopOf="@+id/Texto_2"
-        android:layout_marginTop="224dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="223dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="40dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <Button
         android:id="@+id/Login_Usuario"
@@ -56,10 +56,11 @@
         android:inputType="textPassword"
         android:text="Contraseña:"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@+id/Nombre_Usuario"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/Nombre_Usuario" />
+        app:layout_constraintLeft_toLeftOf="@+id/Nombre_Usuario"
+        android:layout_marginLeft="0dp" />
 
     <TextView
         android:id="@+id/Texto_1"
